@@ -109,5 +109,7 @@ sample(L1,5)
 set.seed(12)
 sample(L1,5)
 
+women
+
          
 
