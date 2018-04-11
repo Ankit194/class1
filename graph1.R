@@ -1,12 +1,13 @@
 # Plot using Business Data
 #use df1 : load(file='./data/ba.Rdata')
 # Data
-
+load(file='./data/badata.Rdata')
+df1
 #scatter Plot
 plot(adtv, sales)
 plot(x=adtv, y=adweb, pch=10, type='p', col='green')
 abline(lm(adweb ~ adtv))
-
+?plot
 car::scatterplot(sales ~ ., data=df1, legend.columns=T)
 car::scatterplot(sales ~ adtv, data=df1, legend.columns=T)
 

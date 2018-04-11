@@ -3,6 +3,8 @@
 # Data
 set.seed(100)
 sales = floor(rnorm(100, 80, 20))
+sales
+sales
 
 set.seed(101)
 coy = sample(c('coy1','coy2','coy3'), size=100, replace=T) 
